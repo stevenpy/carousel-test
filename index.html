@@ -14,11 +14,8 @@
   <!-- Bootstrap core CSS -->
   <link href="css/bootstrap.min.css" rel="stylesheet">
   <link href="js/owlcarousel/owl.carousel.css" rel="stylesheet">
-
   <!-- Add Custom CSS -->
   <link href="css/main.css" rel="stylesheet">
-
-
   <!-- Custom styles for this template -->
   <style>
   body {
@@ -41,7 +38,7 @@
       <![endif]-->
     </head>
 
-    <body>
+    <body id="back-to-top">
 
 
       <!-- Fixed navbar -->
@@ -72,9 +69,7 @@
         </div>
       </div>
 
-     
       <div class="container padding-mine">
-
         <div class="services">
           <div class="item">
             <img src="images/pic-slider.png">
@@ -92,10 +87,18 @@
       <div class="container padding-mine">
         <div class="carousel">
           <div class="item">
-            <img src="images/web02_42.png" class="img-circle" width="100%">
+            <a href="#product1"><img src="images/web02_42.png" class="img-circle" width="100%"></a>
+            <!-- Add a title to the image of the carousel -->
+            <div class="carousel-caption">
+            <!-- Add a title to the image of the carousel -->
+              Service 1
+            </div> 
           </div>
           <div class="item">
-            <img src="images/web02_44.png" class="img-circle" width="100%">
+            <a href="#product2"><img src="images/web02_44.png" class="img-circle" width="100%"></a>
+            <div class="carousel-caption">
+              Service 2
+            </div> 
           </div>
           <div class="item">
             <img src="images/web02_46.png" class="img-circle" width="100%">
@@ -118,7 +121,7 @@
         </div>
       </div><!-- /.container -->
 
-      <div class="container padding-mine">
+      <section class="container padding-mine" id="product1">
         <h2>Products 1</h2>
         <div class="carousel">
           <div class="item">
@@ -146,11 +149,11 @@
             <img src="images/web02_56.png" width="100%">
           </div>
         </div>
-      </div><!-- /.container -->
+      </section><!-- /.container -->
 
       <div class="container padding-mine">
         <h2>Products 2</h2>
-        <div class="carousel">
+        <div class="carousel" id="product2">
           <div class="item">
             <img src="images/web02_42.png" width="100%">
           </div>
@@ -186,6 +189,7 @@
         </div>
       </div>
 
+      <a href="#back-to-top" class="btn btn-primary btn-lg back-to-top"><span class="glyphicon glyphicon-chevron-up"></span></a>
 
     <!-- Bootstrap core JavaScript
     ================================================== -->
@@ -193,51 +197,10 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
     <script src="js/owlcarousel/owl.carousel.min.js"></script>
-    <script type="text/javascript">
-    $(document).ready(function(){
-
-     $('.carousel').owlCarousel({
-
-      items: 4,
-
-      responsive: {
-        0: {
-          items: 1
-        },
-        480: {
-          items: 2,
-          margin: 15
-        },
-        768: {
-          items: 3,
-          margin: 30
-        },
-        992: {
-          items: 4,
-          margin: 45
-        }
-      }
-
-      
-    });
-
-
-   });
-    </script>
-    <script type="text/javascript">
-    $(document).ready(function(){
-     $('.services').owlCarousel({
-      items : 1, 
-      itemsDesktop : false,
-      itemsDesktopSmall : false,
-      itemsTablet: false,
-      itemsMobile : false
-    });
-
-
-   });
-    </script>
-    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
     
+    <!-- Separate file for carousel -->
+    <script src="js/carousel.js"></script> 
+    <script src="js/scroll.js"></script> 
+
   </body>
   </html>

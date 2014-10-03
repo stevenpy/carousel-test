@@ -31,5 +31,11 @@
   padding-bottom: 30px;
 }
 
+.back-to-top {
+    cursor: pointer;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+}
 
 /* Custom CSS */
