@@ -170,4 +170,20 @@ html,body{height:100%;}
     border-bottom: 3px solid #1c1c1c;
 }
 
+#footer {
+  background-color: #2f2f2f;
+  padding-top: 50px;
+  padding-bottom: 50px; 
+}
+
+#footer p {
+  color: white;
+}
+
+#footer h4 {
+  color: white;
+  text-transform: uppercase;
+  padding-bottom: 20px;
+}
+
 /* Custom CSS */
