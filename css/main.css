@@ -186,4 +186,40 @@ html,body{height:100%;}
   padding-bottom: 20px;
 }
 
+.grey {
+  background-color: #DFDFDF;
+}
+
+.test {
+  position: relative;
+  background-color: #FC2828;
+}
+
+.test:before, .test:after {
+  content: "";
+  position: absolute;
+  background-color: #FC2828; /* Match the background */
+  top: 0;
+  bottom: 0;
+  width: 9999px;   /* some huge width */
+} 
+
+.test:before {
+  right: 100%;
+}
+
+.test:after {
+  left: 100%;
+}
+
+.brdr {
+  border-style: solid;
+    border-bottom: thick solid #F80042;
+}
+
+.brtr {
+  border-style: solid;
+    border-top: thick solid #F80042;
+}
+
 /* Custom CSS */
