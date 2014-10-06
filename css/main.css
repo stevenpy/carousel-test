@@ -1,6 +1,5 @@
 /* Custom CSS */
 
-
 .adjust-btn {
     margin-top: 16px;
     margin-left: 16px;
@@ -42,6 +41,16 @@
   border-radius:                    0px;
   -webkit-border-radius:            0px;
   -moz-border-radius:               0px;
+}
+
+.foo {   
+    float: left;
+    width: 3px;
+    height: 23px;
+    margin: 5px 5px 5px 5px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgba(0,0,0,.2);
 }
 
 /* Custom CSS */
