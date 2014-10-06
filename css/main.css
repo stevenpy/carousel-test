@@ -1,7 +1,7 @@
 /* Custom CSS */
 
 .adjust-btn {
-    margin-top: 20px;
+    margin-top: 11px;
     margin-left: 16px;
     margin-right: 15px;
 }
@@ -68,7 +68,7 @@ html,body{height:100%;}
 #owl-demo .item{
   /*background: #42bdc2;*/
   padding: 0px 0px;
-  padding-bottom: 30px;
+  padding-bottom: 0px;
   margin: 10px;
   color: #FFF;
   -webkit-border-radius: 3px;
@@ -92,7 +92,7 @@ html,body{height:100%;}
     float: left;
     width: 3px;
     height: 33px;
-    margin-top: 20px;
+    margin-top: 10px;
     border-width: 1px;
     border-style: solid;
     border-color: rgba(0,0,0,.2);
@@ -154,7 +154,7 @@ html,body{height:100%;}
     display: block;
     font-size: 14px;
     font-weight: 200;
-    padding: 20px;
+    padding: 10px;
     overflow: hidden;
     transition: all 0.3s ease-in-out;
     -moz-transition: all 0.3s ease-in-out;
@@ -220,6 +220,13 @@ html,body{height:100%;}
 .brtr {
   border-style: solid;
     border-top: thick solid #F80042;
+}
+
+.paddinmine {
+  padding-bottom: 0px;
+}
+.mytext {
+  text-align: center;
 }
 
 /* Custom CSS */
