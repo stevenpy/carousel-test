@@ -1,6 +1,5 @@
 /* Custom CSS */
 
-
 .adjust-btn {
     margin-top: 16px;
     margin-left: 16px;
@@ -44,6 +43,7 @@
   -moz-border-radius:               0px;
 }
 
+
 html,body{height:100%;}
 .carousel,.item,.active{height:100%;}
 .carousel-inner{height:100%;}
@@ -74,6 +74,17 @@ html,body{height:100%;}
   -moz-border-radius: 3px;
   border-radius: 3px;
   text-align: center;
+}
+
+.foo {   
+    float: left;
+    width: 3px;
+    height: 23px;
+    margin: 5px 5px 5px 5px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgba(0,0,0,.2);
+
 }
 
 /* Custom CSS */
