@@ -31,3 +31,16 @@ $(function(){
   itemsMobile : false
 });
 });
+
+$(function() {
+ 
+  var owl = $("#owl-demo");
+ 
+  owl.owlCarousel({
+     
+      items : 1,
+      navigation : true
+ 
+  });
+ 
+});
